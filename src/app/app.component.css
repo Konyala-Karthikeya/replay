@@ -1,0 +1,95 @@
+/* app.component.css */
+.container {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container h1 {
+    font-size: 4em; /* Increase the font size of the h1 */
+    margin-bottom: 10px; /* Decrease the bottom margin to reduce space */
+}
+
+.container p:first-of-type {
+    font-size: 3em; /* Adjust the font size of the first p */
+    margin-top: 0; /* Set margin top to 0 to reduce space */
+    margin-bottom: 10px; /* Adjust margin bottom to reduce space */
+}
+
+.container .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap; /* Prevent wrapping of content */
+}
+
+.container .content p {
+    font-size: 1.5em; /* Set the font size of the second p */
+    white-space: normal; /* Allow wrapping */
+    margin: 5px 0; /* Adjust margin between the two lines */
+}
+
+.container .content img {
+    width: 1em; /* Set the width of the image to match the font size */
+    height: 1em; /* Set the height of the image to match the font size */
+    vertical-align: middle; /* Align the images with the text */
+    margin: 0 0.2em; /* Add a small margin for spacing */
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button-container button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.footer {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 20px;
+}
+
+.notification-container {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    font-family: 'Arial', sans-serif;
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification-body {
+    font-size: 14px;
+    color: #f4f7f7;
+    white-space: nowrap;
+}
+
+.notification-icon {
+    margin-right: 10px;
+}
+
+.arrow-icon {
+    width: 20px; 
+    height: 20px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.next {
+    font-size: 3em; /* Set font size */
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 10px; /* Add bottom margin */
+}
+
